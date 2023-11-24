@@ -7,7 +7,7 @@
 /*header*/
 
 .box-header {
-  min-height: 600px;
+  height: 600px;
   border: 1px dashed red;
 }
 
@@ -77,4 +77,57 @@
 .reverese-section {
   flex-direction: row-reverse;
   background-color: #d3d3d3;
+}
+.last-section {
+  background-color: #d3d3d3;
+}
+.last-section > .box-section {
+  background-color: #228b23;
+  width: 100%;
+}
+/*footer*/
+
+.footer-section {
+  height: 600px;
+  border: 1px dashed red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 55px 15%;
+  background-color: #23272a;
+  gap: 50px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+}
+.social {
+  width: 30%;
+  background-color: #f08080;
+}
+.info {
+  width: 70%;
+  padding: 0;
+}
+.info > .box {
+  width: 100%;
+  background-color: #34b2aa;
+}
+.logo-link {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7ffed4;
+}
+.footer-logo,
+.footer-bottone {
+  background-color: #fab6c1;
+}
+.footer-info {
+  background-color: #f08080;
+  width: 100%;
 }
