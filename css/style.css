@@ -4,11 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*header*/
 
-.box-section {
-  min-height: 600px;
-  border: 1px dashed red;
-}
 .box-header {
   min-height: 600px;
   border: 1px dashed red;
@@ -58,4 +55,26 @@
   width: 100%;
   background-color: #ee82ee;
   border: 2px dashed black;
+}
+/*main*/
+.main-section {
+  min-height: 600px;
+  border: 1px dashed red;
+  display: flex;
+  align-items: center;
+  padding: 0 15%;
+}
+.box-section {
+  height: 400px;
+  width: 400px;
+  border: 2px dashed black;
+  background-color: #fbc0cc;
+}
+.foto {
+  width: 70%;
+  background-color: #3790ff;
+}
+.reverese-section {
+  flex-direction: row-reverse;
+  background-color: #d3d3d3;
 }
