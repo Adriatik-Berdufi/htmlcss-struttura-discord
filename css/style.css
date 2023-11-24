@@ -1,0 +1,17 @@
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  min-height: 600px;
+  border: 1px dashed red;
+}
+.box-header {
+  min-height: 600px;
+  border: 1px dashed red;
+}
+header > div {
+  min-height: 200px;
+}
